@@ -830,17 +830,17 @@ div.content {
 #login-form input[type="password"] {
 	width: 75%;
 	border-color: #353535;
-	background: #111
+	background: #fff
 }
 #login-form input[type="text"]:focus,
 #login-form input[type="password"]:focus { background: #fff}
 
-#loginForm label { color: #888; display: inline-block; width: 80px }
+#loginForm label { color: #000; display: inline-block; width: 80px }
 
 label#jform_spacer-lbl {
 	font-size: 11px;
 	font-weight: normal;
-	color: #666;
+	color: #000;
 }
 .gkUsermenu { float: right; width: 50%}
  .gkUsermenu ul li{ border-bottom: 1px solid #252525;
@@ -897,14 +897,14 @@ span#fb-auth:hover {
 #gkPopupOverlay,
 #gkPopupLogin,
 #gkPopupCart {
-	color: #999;
+	color: #000;
 	display: none;
 	overflow: hidden;
 	position: fixed;
 	z-index: 1000002;
 	left: 50%;
 	top: 50%;
-	background: #000;
+	background: #fff;
 }
 #gkPopupLogin {
 	position: absolute;
@@ -925,10 +925,10 @@ span#fb-auth:hover {
 	padding: 40px;
 	overflow: hidden;
 }
-.gkPopupWrap a { color: #ccc;}
+.gkPopupWrap a { color: #000;}
 .gkPopupWrap a:hover { color: #ff7e57;}
 .gkPopupWrap h3 {
-	color: #fff;
+	color: #000;
 	 font-size: 32px;
     font-weight: 600;
     line-height: 42px;
